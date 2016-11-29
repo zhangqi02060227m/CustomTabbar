@@ -1,0 +1,3 @@
+1. 命名规范：
+    1.根视图命名 Root， 其他的主视图命名为HomeMainViewController， TradeMainViewController  ...
+    2.变量的命名 ： UItextField -> field+变量名，UIButtton -> btn+ 变量名 ， UILabel -> lab+变量名, UITextView -> text+变量名, UIView-> view+变量名

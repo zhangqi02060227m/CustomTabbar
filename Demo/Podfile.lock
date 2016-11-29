@@ -1,0 +1,15 @@
+PODS:
+  - LCNavigationController (1.0.6)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - LCNavigationController
+  - Masonry (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  LCNavigationController: a59ed93dd3412729be3e40ea4f3a85b686c58f4b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 62e17f4c69f5358166edb034456e4a75a1b4f736
+
+COCOAPODS: 1.2.0.beta.1
