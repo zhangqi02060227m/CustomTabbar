@@ -12,16 +12,10 @@
 #import "Home1ViewController.h"
 #import "Home2ViewController.h"
 #import "FilmDetailsViewController.h"
+#import "FilmModel.h"
 @interface HomeMainViewController ()<UIScrollViewDelegate>
-@property (nonatomic, copy) NSArray *arrCopy;
-@property (nonatomic, strong) NSArray *arrStrong;
-@property (nonatomic, strong) HomeBannerView *banner;
-@property (nonatomic, strong) UIView *viewTop;
-@property (nonatomic, strong) UIButton *btn1;
-@property (nonatomic, strong) UIButton *btn2;
-@property (nonatomic, strong) UIButton *btn3;
-@property (nonatomic, strong) UIScrollView *scrollContent;
-@property (nonatomic, strong) UIViewController *currentVc;
+@property (nonatomic, strong) NSMutableArray *arrData;
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation HomeMainViewController
@@ -29,18 +23,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.title = @"aaa";
+    self.navigationItem.title = @"电影";
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:@"跳转" forState:UIControlStateNormal];
     btn.backgroundColor = [UIColor redColor];
     btn.frame = CGRectMake(100, 100, 100, 40);
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(handleClick) forControlEvents:UIControlEventTouchUpInside];
-    
-        
-    
+//    self.arrData = [NSMutableArray array];
+//    
+//    [AFNetworkTool getUrl:HOTFILE_URL body:nil response:ZHResponseStyleJSON requestheadFile:nil isCache:NO success:^(NSURLSessionDataTask *task, id jsonDict) {
+//        NSArray *arr = jsonDict[@"data"][@"hot"];
+//        for (NSDictionary *dic in arr) {
+//            FilmModel *model = [[FilmModel alloc] initWithDic:dic];
+//            [self.arrData addObject:model];
+//        }
+//        for (FilmModel *model in self.arrData) {
+//            NSLog(@"%@ %lf", model.nm, model.mk);
+//        }
+//        
+//    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+//        
+//    }];
 
 }
+
+
+
 
 
 
@@ -55,7 +64,9 @@
 //    [ROOT_MANAGER pushViewController:test animated:YES];
     FilmDetailsViewController *film = [[FilmDetailsViewController alloc] init];
     [ROOT_MANAGER pushViewController:film animated:YES];
+    
 }
+
 
 
 

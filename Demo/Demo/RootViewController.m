@@ -13,8 +13,7 @@
 #import "MineMainViewController.h"
 
 @interface RootViewController ()<UITabBarControllerDelegate>
-
-@property (nonatomic, strong) UINavigationController *curNavi;
+@property (nonatomic, strong) RTRootNavigationController *curNavi;
 @property (nonatomic, strong) NSMutableArray *arrNavi;
 @end
 
@@ -60,7 +59,8 @@
     
     for (int i = 0; i < viewControllers.count; i++) {
         UIViewController *childVc = viewControllers[i];
-        UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:childVc];
+        RTRootNavigationController *navi = [[RTRootNavigationController alloc] initWithRootViewController:childVc];
+        navi.useSystemBackBarButtonItem = YES;
         navi.tabBarItem.title = titles[i];
         navi.tabBarItem.image = [[UIImage imageNamed:images[i]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         navi.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImages[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -72,6 +72,10 @@
     
 }
 
+#pragma mark - 得到当前navi 的 rt_viewControllers
+- (NSArray *)rootNaviViewControllers {
+    return self.curNavi.rt_viewControllers;
+}
 
 
 #pragma mark - UITabBarDeledate 方法
@@ -93,7 +97,7 @@
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    if (self.curNavi.viewControllers.count >= 1) {
+    if (self.curNavi.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
         [self.curNavi pushViewController:viewController animated:animated];
     }

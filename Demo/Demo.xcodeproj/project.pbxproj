@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		3D1F9D381DED157B001A7A9E /* FilmDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F9D371DED157B001A7A9E /* FilmDetailsViewController.m */; };
 		3D1F9D3B1DED1C08001A7A9E /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F9D3A1DED1C08001A7A9E /* UIImage+Extension.m */; };
+		3D1F9D3F1DED7247001A7A9E /* UIButton+ImageTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F9D3E1DED7247001A7A9E /* UIButton+ImageTitleStyle.m */; };
 		3D3E718C1DE687E8005CF4A0 /* BaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E718B1DE687E8005CF4A0 /* BaseButton.m */; };
 		3D3E71A51DEBC7EA005CF4A0 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E71A41DEBC7EA005CF4A0 /* CustomButton.m */; };
 		3D3E71A81DEBC856005CF4A0 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E71A71DEBC856005CF4A0 /* BaseView.m */; };
 		3D3E71AB1DEBC87E005CF4A0 /* HomeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E71AA1DEBC87E005CF4A0 /* HomeBannerView.m */; };
 		3D3E71AE1DEC0A1B005CF4A0 /* Home1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E71AD1DEC0A1B005CF4A0 /* Home1ViewController.m */; };
 		3D3E71B11DEC0A25005CF4A0 /* Home2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3E71B01DEC0A25005CF4A0 /* Home2ViewController.m */; };
+		3DFCDDFF1DF55B680065690A /* AFNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDDFE1DF55B680065690A /* AFNetworkTool.m */; };
+		3DFCDE021DF55C0B0065690A /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE011DF55C0B0065690A /* BaseModel.m */; };
+		3DFCDE051DF55C240065690A /* FilmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE041DF55C240065690A /* FilmModel.m */; };
+		3DFCDE081DF575340065690A /* FilmDetailsDescribeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE071DF575340065690A /* FilmDetailsDescribeCell.m */; };
+		3DFCDE0B1DF57BB50065690A /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE0A1DF57BB50065690A /* NSString+Check.m */; };
+		3DFCDE0E1DF658300065690A /* FilmCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE0D1DF658300065690A /* FilmCommentModel.m */; };
+		3DFCDE111DF659F70065690A /* FileCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFCDE101DF659F70065690A /* FileCommentCell.m */; };
 		913C7171B6AF878B13CE82CF /* libPods-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDF9DCE956E76D9F1D3A2A1 /* libPods-Demo.a */; };
 		B52EF6971DE1AB5800AEA977 /* InstructionBook.txt in Resources */ = {isa = PBXBuildFile; fileRef = B52EF6961DE1AB5800AEA977 /* InstructionBook.txt */; };
 		B52EF69A1DE1AE5400AEA977 /* HomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B52EF6991DE1AE5400AEA977 /* HomeMainViewController.m */; };
@@ -36,6 +44,8 @@
 		3D1F9D371DED157B001A7A9E /* FilmDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsViewController.m; sourceTree = "<group>"; };
 		3D1F9D391DED1C08001A7A9E /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		3D1F9D3A1DED1C08001A7A9E /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3D1F9D3D1DED7247001A7A9E /* UIButton+ImageTitleStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleStyle.h"; sourceTree = "<group>"; };
+		3D1F9D3E1DED7247001A7A9E /* UIButton+ImageTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleStyle.m"; sourceTree = "<group>"; };
 		3D3E718A1DE687E8005CF4A0 /* BaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseButton.h; sourceTree = "<group>"; };
 		3D3E718B1DE687E8005CF4A0 /* BaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseButton.m; sourceTree = "<group>"; };
 		3D3E718D1DE6B3A3005CF4A0 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
@@ -49,6 +59,20 @@
 		3D3E71AD1DEC0A1B005CF4A0 /* Home1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home1ViewController.m; sourceTree = "<group>"; };
 		3D3E71AF1DEC0A25005CF4A0 /* Home2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home2ViewController.h; sourceTree = "<group>"; };
 		3D3E71B01DEC0A25005CF4A0 /* Home2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home2ViewController.m; sourceTree = "<group>"; };
+		3DFCDDFD1DF55B680065690A /* AFNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkTool.h; sourceTree = "<group>"; };
+		3DFCDDFE1DF55B680065690A /* AFNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkTool.m; sourceTree = "<group>"; };
+		3DFCDE001DF55C0B0065690A /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		3DFCDE011DF55C0B0065690A /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		3DFCDE031DF55C240065690A /* FilmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmModel.h; sourceTree = "<group>"; };
+		3DFCDE041DF55C240065690A /* FilmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmModel.m; sourceTree = "<group>"; };
+		3DFCDE061DF575340065690A /* FilmDetailsDescribeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmDetailsDescribeCell.h; sourceTree = "<group>"; };
+		3DFCDE071DF575340065690A /* FilmDetailsDescribeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmDetailsDescribeCell.m; sourceTree = "<group>"; };
+		3DFCDE091DF57BB50065690A /* NSString+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Check.h"; sourceTree = "<group>"; };
+		3DFCDE0A1DF57BB50065690A /* NSString+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Check.m"; sourceTree = "<group>"; };
+		3DFCDE0C1DF658300065690A /* FilmCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmCommentModel.h; sourceTree = "<group>"; };
+		3DFCDE0D1DF658300065690A /* FilmCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmCommentModel.m; sourceTree = "<group>"; };
+		3DFCDE0F1DF659F70065690A /* FileCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCommentCell.h; sourceTree = "<group>"; };
+		3DFCDE101DF659F70065690A /* FileCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCommentCell.m; sourceTree = "<group>"; };
 		4A682FA11EA42ECDA7568672 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		60A6F28B9D05C0291E176E0B /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		B52EF6961DE1AB5800AEA977 /* InstructionBook.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InstructionBook.txt; sourceTree = "<group>"; };
@@ -118,8 +142,16 @@
 				B539BA4B1DE1A89E005700E0 /* RootViewController.m */,
 				B52EF6981DE1AE5400AEA977 /* HomeMainViewController.h */,
 				B52EF6991DE1AE5400AEA977 /* HomeMainViewController.m */,
+				3DFCDE031DF55C240065690A /* FilmModel.h */,
+				3DFCDE041DF55C240065690A /* FilmModel.m */,
+				3DFCDE0C1DF658300065690A /* FilmCommentModel.h */,
+				3DFCDE0D1DF658300065690A /* FilmCommentModel.m */,
 				3D1F9D361DED157A001A7A9E /* FilmDetailsViewController.h */,
 				3D1F9D371DED157B001A7A9E /* FilmDetailsViewController.m */,
+				3DFCDE061DF575340065690A /* FilmDetailsDescribeCell.h */,
+				3DFCDE071DF575340065690A /* FilmDetailsDescribeCell.m */,
+				3DFCDE0F1DF659F70065690A /* FileCommentCell.h */,
+				3DFCDE101DF659F70065690A /* FileCommentCell.m */,
 				3D3E71AC1DEC0A1B005CF4A0 /* Home1ViewController.h */,
 				3D3E71AD1DEC0A1B005CF4A0 /* Home1ViewController.m */,
 				3D3E71AF1DEC0A25005CF4A0 /* Home2ViewController.h */,
@@ -158,10 +190,16 @@
 		B539BA5E1DE1A93F005700E0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				3DFCDDFD1DF55B680065690A /* AFNetworkTool.h */,
+				3DFCDDFE1DF55B680065690A /* AFNetworkTool.m */,
 				B539BA5F1DE1A956005700E0 /* BaseViewController.h */,
 				B539BA601DE1A956005700E0 /* BaseViewController.m */,
+				3DFCDE001DF55C0B0065690A /* BaseModel.h */,
+				3DFCDE011DF55C0B0065690A /* BaseModel.m */,
 				3D3E718A1DE687E8005CF4A0 /* BaseButton.h */,
 				3D3E718B1DE687E8005CF4A0 /* BaseButton.m */,
+				3D1F9D3D1DED7247001A7A9E /* UIButton+ImageTitleStyle.h */,
+				3D1F9D3E1DED7247001A7A9E /* UIButton+ImageTitleStyle.m */,
 				3D3E71A31DEBC7EA005CF4A0 /* CustomButton.h */,
 				3D3E71A41DEBC7EA005CF4A0 /* CustomButton.m */,
 				3D3E71A61DEBC855005CF4A0 /* BaseView.h */,
@@ -169,6 +207,8 @@
 				3D3E718D1DE6B3A3005CF4A0 /* Define.h */,
 				3D1F9D391DED1C08001A7A9E /* UIImage+Extension.h */,
 				3D1F9D3A1DED1C08001A7A9E /* UIImage+Extension.m */,
+				3DFCDE091DF57BB50065690A /* NSString+Check.h */,
+				3DFCDE0A1DF57BB50065690A /* NSString+Check.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -313,8 +353,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1F9D3F1DED7247001A7A9E /* UIButton+ImageTitleStyle.m in Sources */,
 				3D3E71A51DEBC7EA005CF4A0 /* CustomButton.m in Sources */,
+				3DFCDE0E1DF658300065690A /* FilmCommentModel.m in Sources */,
 				3D3E71AE1DEC0A1B005CF4A0 /* Home1ViewController.m in Sources */,
+				3DFCDE021DF55C0B0065690A /* BaseModel.m in Sources */,
 				3D1F9D381DED157B001A7A9E /* FilmDetailsViewController.m in Sources */,
 				B52EF6A31DE1AE6C00AEA977 /* MineMainViewController.m in Sources */,
 				B539BA3E1DE1A861005700E0 /* AppDelegate.m in Sources */,
@@ -323,8 +366,13 @@
 				B52EF69D1DE1AE5C00AEA977 /* TradeMainViewController.m in Sources */,
 				B539BA611DE1A956005700E0 /* BaseViewController.m in Sources */,
 				3D3E71A81DEBC856005CF4A0 /* BaseView.m in Sources */,
+				3DFCDE0B1DF57BB50065690A /* NSString+Check.m in Sources */,
 				3D3E718C1DE687E8005CF4A0 /* BaseButton.m in Sources */,
+				3DFCDE111DF659F70065690A /* FileCommentCell.m in Sources */,
 				3D3E71B11DEC0A25005CF4A0 /* Home2ViewController.m in Sources */,
+				3DFCDDFF1DF55B680065690A /* AFNetworkTool.m in Sources */,
+				3DFCDE081DF575340065690A /* FilmDetailsDescribeCell.m in Sources */,
+				3DFCDE051DF55C240065690A /* FilmModel.m in Sources */,
 				B52EF6A01DE1AE6400AEA977 /* FindMainViewController.m in Sources */,
 				B52EF6A91DE1B4D700AEA977 /* Test1ViewController.m in Sources */,
 				B52EF6A61DE1B49300AEA977 /* TestViewController.m in Sources */,
@@ -446,6 +494,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zhangqi.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -463,6 +512,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zhangqi.com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

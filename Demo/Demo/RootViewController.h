@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class RTRootNavigationController;
 #define ROOT_MANAGER [RootViewController shareRootViewController]
 
 @interface RootViewController : UITabBarController
+
+- (NSArray *)rootNaviViewControllers;
 
 + (instancetype)shareRootViewController;
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated;
